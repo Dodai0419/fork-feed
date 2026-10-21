@@ -1,0 +1,1 @@
+{"name": "fork-feed", "description": "See which of your GitHub forks are behind upstream, and only what landed upstream since you last looked. Read-only, one file, no dependencies.", "version": "0.1.0", "author": {"name": "Dodai0419"}}

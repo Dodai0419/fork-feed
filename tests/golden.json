@@ -1,0 +1,149 @@
+{
+ "verdicts": [
+  [
+   {
+    "fork": "demo/same-lib",
+    "upstream": "up/same-lib",
+    "status": "pending",
+    "upstream_gone": false,
+    "fork_sha": "aaa",
+    "upstream_sha": "aaa",
+    "branch": "main",
+    "fork_tag": "v1.0",
+    "upstream_tag": "v1.0"
+   },
+   "same"
+  ],
+  [
+   {
+    "fork": "demo/web-kit",
+    "upstream": "acme/web-kit",
+    "status": "pending",
+    "upstream_gone": false,
+    "fork_sha": "b01",
+    "upstream_sha": "b99",
+    "branch": "main",
+    "fork_tag": "v2.0",
+    "upstream_tag": "v2.3",
+    "upstream_ahead": 3,
+    "fork_ahead": 0
+   },
+   "behind"
+  ],
+  [
+   {
+    "fork": "demo/cli-tool",
+    "upstream": "tools/cli-tool",
+    "status": "pending",
+    "upstream_gone": false,
+    "fork_sha": "c02",
+    "upstream_sha": "c01",
+    "branch": "master",
+    "fork_tag": null,
+    "upstream_tag": null,
+    "upstream_ahead": 0,
+    "fork_ahead": 2
+   },
+   "contains"
+  ],
+  [
+   {
+    "fork": "demo/rewritten",
+    "upstream": "other/rewritten",
+    "status": "diverged",
+    "upstream_gone": false,
+    "fork_sha": "d01",
+    "upstream_sha": "d99",
+    "branch": "main",
+    "fork_tag": null,
+    "upstream_tag": null,
+    "last_error": "no common ancestor (history rewritten)"
+   },
+   "diverged"
+  ],
+  [
+   {
+    "fork": "demo/orphan",
+    "upstream": null,
+    "status": "pending",
+    "upstream_gone": true,
+    "fork_sha": "e01",
+    "upstream_sha": null,
+    "branch": null,
+    "fork_tag": null,
+    "upstream_tag": null
+   },
+   "gone"
+  ],
+  [
+   {
+    "fork": "demo/flaky",
+    "upstream": "flaky/flaky",
+    "status": "error",
+    "upstream_gone": false,
+    "fork_sha": "f01",
+    "upstream_sha": "f99",
+    "branch": "main",
+    "fork_tag": null,
+    "upstream_tag": null,
+    "last_error": "HTTPError: HTTP Error 500: Internal Server Error"
+   },
+   "unsynced"
+  ],
+  [
+   {
+    "fork_sha": "a",
+    "upstream_sha": "b",
+    "status": "pending"
+   },
+   "behind"
+  ],
+  [
+   {
+    "fork_sha": "a",
+    "upstream_sha": "b",
+    "status": "error",
+    "last_error": "boom"
+   },
+   "unsynced"
+  ],
+  [
+   {
+    "fork_sha": "a",
+    "upstream_sha": "b",
+    "status": "pending",
+    "upstream_ahead": 2,
+    "fork_ahead": 5
+   },
+   "behind"
+  ],
+  [
+   {
+    "fork_sha": "a",
+    "upstream_sha": "b",
+    "status": "pending",
+    "upstream_ahead": 0,
+    "fork_ahead": 0
+   },
+   "contains"
+  ],
+  [
+   {
+    "fork_sha": "",
+    "upstream_sha": "b",
+    "status": "pending"
+   },
+   "pending"
+  ]
+ ],
+ "watch_runs": [
+  [
+   "https://github.com/acme/web-kit/commit/fix-cookie-parsing",
+   "https://github.com/acme/web-kit/commit/add-http/3-support"
+  ],
+  [],
+  [
+   "https://github.com/acme/web-kit/commit/brand-new-fix"
+  ]
+ ]
+}

@@ -1,0 +1,1 @@
+{"name": "fork-feed", "owner": {"name": "Dodai0419"}, "plugins": [{"name": "fork-feed", "source": "./", "description": "See which of your GitHub forks are behind upstream, and only what landed upstream since you last looked. Read-only, one file, no dependencies."}]}
